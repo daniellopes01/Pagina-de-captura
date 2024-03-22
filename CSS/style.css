@@ -25,5 +25,98 @@ header{
 }
 
 section {
-    color: white;
+    padding: 20px;
+    background-image: url('../images/people.jpg');
+    background-size: cover;
+    overflow: hidden;
 }
+
+.FormContainer {
+    max-width: 230px;
+    float: right;
+    background-color: #ffffffBB;
+    padding: 20px;
+}
+
+h2 {
+    font-weight: bolder;
+    text-align: left;
+    font-size: 16px;
+}
+
+.mb {
+    margin-bottom: 15px;
+}
+
+input, select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: #48c5ce;
+    font-weight: bold;
+}
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url('../images/arrow.jpg');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+
+footer {
+    background-color: #202121;
+    padding: 40px;
+    text-align: center;
+}
+
+.picture {
+    width: 160px;
+}
+
+.description {
+    color: white;
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.description p, .description h3 {
+    margin-bottom: 20px;
+}
+
+.description h3 {
+    font-size: 24px;
+}
+
+@media screen and (max-width: 423px) {
+    
+    .picture {
+        max-width: 70%;
+        
+    }
+
+    .description {
+        display: inline-block;
+        max-width: 70%;
+        margin-top: 15px;
+        
+    }
+
+    .FormContainer {
+        float: none;
+        margin: auto;
+    }
+    
+}
+
+
+
