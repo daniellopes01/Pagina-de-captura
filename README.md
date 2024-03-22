@@ -26,7 +26,7 @@ Sinta-se à vontade para contribuir com melhorias neste projeto. Basta abrir uma
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![screenshot](https://github.com/daniellopes01/Pagina-de-captura/assets/158799132/212130d6-ca41-4f4e-85b1-678e9ee1c739)
 
 
 ## Autores
